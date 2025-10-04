@@ -48,8 +48,8 @@
 ### 1. Clona il repository
 
 ```bash
-git clone https://github.com/tuo-username/pdf-csv-statement.git
-cd pdf-csv-statement
+git clone https://github.com/giulio2005/estratto-conto-pdf-csv.git
+cd estratto-conto-pdf-csv
 ```
 
 ### 2. Installa le dipendenze
