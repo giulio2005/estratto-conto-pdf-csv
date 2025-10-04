@@ -1,0 +1,41 @@
+{
+  "name": "pdf-csv-statement",
+  "version": "1.0.0",
+  "description": "Self-hosted web app to convert bank statements (PDF, CSV, XLS, XLSX, OFX, QIF) to structured CSV using Gemini AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "pdf",
+    "csv",
+    "bank-statement",
+    "gemini-ai",
+    "self-hosted",
+    "converter",
+    "finance",
+    "accounting"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/pdf-csv-statement.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pdf-csv-statement/issues"
+  },
+  "homepage": "https://github.com/yourusername/pdf-csv-statement#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
