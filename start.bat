@@ -46,10 +46,13 @@ if not exist node_modules (
 REM Avvia il server
 echo [OK] Avvio server...
 echo.
-echo Apri il browser su: http://localhost:3000
+echo Apertura browser su: http://localhost:3000
 echo.
 echo Premi Ctrl+C per terminare il server
 echo ======================================
 echo.
+
+REM Apri il browser dopo 2 secondi (in background)
+start "" cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:3000"
 
 npm start

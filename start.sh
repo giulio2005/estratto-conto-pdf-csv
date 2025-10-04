@@ -44,10 +44,13 @@ fi
 
 # Avvia il server
 echo "✅ Avvio server..."
-echo "📊 Apri il browser su: http://localhost:3000"
+echo "📊 Apertura browser su: http://localhost:3000"
 echo ""
 echo "Premi Ctrl+C per terminare il server"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
+
+# Apri il browser dopo 2 secondi (per dare tempo al server di avviarsi)
+(sleep 2 && open http://localhost:3000) &
 
 npm start
