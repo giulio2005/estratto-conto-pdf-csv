@@ -90,15 +90,31 @@ PORT=3000
 
 ### 4. Avvia l'applicazione
 
-#### Modalità Produzione
+#### ⚡ Metodo Rapido (Consigliato)
 
+Dopo la prima installazione, usa lo script di avvio:
+
+**macOS / Linux:**
 ```bash
-npm start
+./start.sh
 ```
 
-#### Modalità Sviluppo (con auto-reload)
+**Windows:**
+- Doppio click su `start.bat`
+
+Lo script controllerà automaticamente:
+- ✅ Presenza di Node.js
+- ✅ Configurazione `.env`
+- ✅ Installazione dipendenze
+- ✅ Avvio del server
+
+#### Metodo Manuale
 
 ```bash
+# Modalità Produzione
+npm start
+
+# Modalità Sviluppo (con auto-reload)
 npm run dev
 ```
 
