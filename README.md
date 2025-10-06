@@ -10,6 +10,49 @@
 
 ---
 
+## 📸 Come Funziona - Esempio Pratico
+
+### 1️⃣ Interfaccia Iniziale
+Avvia l'applicazione e vedrai l'interfaccia moderna con drag & drop:
+
+![Interfaccia](assets/1-interface.png)
+
+### 2️⃣ Estratto Conto di Esempio
+Ecco un esempio di estratto conto bancario in PDF da convertire:
+
+![PDF Esempio 1](assets/2-pdf-example-1.png)
+![PDF Esempio 2](assets/3-pdf-example-2.png)
+
+*L'estratto conto contiene transazioni con date, descrizioni e importi in formati diversi a seconda della banca.*
+
+### 3️⃣ Caricamento ed Elaborazione
+Carica il PDF (drag & drop o click) e avvia la conversione. L'AI Gemini analizza il contenuto:
+
+![Processing](assets/4-processing.png)
+
+*Il sistema estrae il testo dal PDF e lo processa con intelligenza artificiale per riconoscere automaticamente le colonne.*
+
+### 4️⃣ Risultato Finale
+Ottieni il CSV strutturato con anteprima completa e pulsante di copia:
+
+![Risultato](assets/5-result.png)
+
+**Il risultato include:**
+- ✅ **Anteprima completa** del CSV generato
+- ✅ **Contatore righe** per verificare il totale transazioni
+- ✅ **Pulsante Copia** per copiare tutto negli appunti
+- ✅ **Download CSV** pronto per l'importazione nel gestionale
+
+**Formato Output:**
+```csv
+Data;Descrizione;Uscite;Entrate
+01/12/2024;ACCREDITO STIPENDIO AZIENDA XYZ;;2500.00
+03/12/2024;PAGAMENTO BOLLETTA ENEL ENERGIA;85.50;
+05/12/2024;BONIFICO RICEVUTO DA CLIENTE ABC;;1200.00
+```
+
+---
+
 ## 🎯 Caratteristiche
 
 - ✅ **Interfaccia moderna e intuitiva** con Tailwind CSS e dark mode
